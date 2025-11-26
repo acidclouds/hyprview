@@ -1,6 +1,6 @@
 [repository]
 name = "hyprview"
-authors = ["yz778"]
+authors = ["acidclouds"]
 commit_pins = [
     ### [ "https://github.com/hyprwm/Hyprland/releases", "https://github.com/yz778/hyprview/releases" ] # hyprland version
 
@@ -9,6 +9,6 @@ commit_pins = [
 
 [hyprview]
 description = "Hyprland plugin to display an interactive overview of all windows"
-authors = ["yz778"]
+authors = ["acidclouds"]
 output = "build/hyprview.so"
 build = ["make -C src all"]
